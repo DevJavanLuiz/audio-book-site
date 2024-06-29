@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .container {
   width: 100%;
   max-width: 1280px;
@@ -22,4 +27,8 @@
     max-width: 800px;
     padding: 0 2rem;
   }
+}
+
+.curtain {
+  border-radius: 20%;
 }
